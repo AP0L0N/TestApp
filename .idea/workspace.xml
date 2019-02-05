@@ -20,8 +20,8 @@
       <file leaf-file-name="README.md" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="272">
-              <caret line="16" column="4" lean-forward="false" selection-start-line="16" selection-start-column="4" selection-end-line="16" selection-end-column="4" />
+            <state relative-caret-position="357">
+              <caret line="21" column="34" lean-forward="false" selection-start-line="21" selection-start-column="34" selection-end-line="21" selection-end-column="34" />
               <folding />
             </state>
           </provider>
@@ -211,7 +211,7 @@
       <workItem from="1549298009192" duration="17894000" />
       <workItem from="1549361433937" duration="78000" />
       <workItem from="1549362505607" duration="724000" />
-      <workItem from="1549363249525" duration="463000" />
+      <workItem from="1549363249525" duration="477000" />
     </task>
     <task id="LOCAL-00001" summary="Update to Readme (added the markdown format)">
       <created>1549363373015</created>
@@ -248,11 +248,18 @@
       <option name="project" value="LOCAL" />
       <updated>1549363685613</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Update to readme">
+      <created>1549363714752</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1549363714752</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="19159000" />
+    <option name="totallyTimeSpent" value="19173000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -436,8 +443,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="16" column="4" lean-forward="false" selection-start-line="16" selection-start-column="4" selection-end-line="16" selection-end-column="4" />
+        <state relative-caret-position="357">
+          <caret line="21" column="34" lean-forward="false" selection-start-line="21" selection-start-column="34" selection-end-line="21" selection-end-column="34" />
           <folding />
         </state>
       </provider>
