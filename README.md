@@ -10,11 +10,11 @@ example run; using this command in terminal: php -r 'include "index.php";'
 either update index.php to use specific methods of the Bank object or update the terminal command.
 
 ## Available commands are
-⋅⋅* Bank.randomize()
-⋅⋅* Bank.balance()
-⋅⋅* Bank.transactions()
-⋅⋅* Bank.dailyTransactions(4)
-⋅⋅* Bank.negativeBalance()
+⋅⋅* Bank.randomize
+⋅⋅* Bank.balance
+⋅⋅* Bank.transactions
+⋅⋅* Bank.dailyTransactions
+⋅⋅* Bank.negativeBalance
 
 # HTML Post Message
 Simple test app that handles dispatching and handling of events between the iframe and parent document.
