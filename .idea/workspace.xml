@@ -21,7 +21,7 @@
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="272">
-              <caret line="16" column="4" lean-forward="false" selection-start-line="16" selection-start-column="4" selection-end-line="16" selection-end-column="4" />
+              <caret line="16" column="3" lean-forward="false" selection-start-line="16" selection-start-column="3" selection-end-line="16" selection-end-column="3" />
               <folding />
             </state>
           </provider>
@@ -211,7 +211,7 @@
       <workItem from="1549298009192" duration="17894000" />
       <workItem from="1549361433937" duration="78000" />
       <workItem from="1549362505607" duration="724000" />
-      <workItem from="1549363249525" duration="380000" />
+      <workItem from="1549363249525" duration="433000" />
     </task>
     <task id="LOCAL-00001" summary="Update to Readme (added the markdown format)">
       <created>1549363373015</created>
@@ -234,11 +234,18 @@
       <option name="project" value="LOCAL" />
       <updated>1549363603644</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Update to readme">
+      <created>1549363631118</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1549363631118</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="19076000" />
+    <option name="totallyTimeSpent" value="19129000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -423,7 +430,7 @@
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="272">
-          <caret line="16" column="4" lean-forward="false" selection-start-line="16" selection-start-column="4" selection-end-line="16" selection-end-column="4" />
+          <caret line="16" column="3" lean-forward="false" selection-start-line="16" selection-start-column="3" selection-end-line="16" selection-end-column="3" />
           <folding />
         </state>
       </provider>
