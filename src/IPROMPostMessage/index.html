@@ -59,30 +59,48 @@
 
 <script>
 
+    console.log(location.origin);
+
     let squares = document.getElementsByClassName("square");
+
+    function validateOrigin(event) {
+
+        return event.origin === "null" || event.origin === "http://localhost";
+    }
 
     function handleHoverOnDiv(e) {
 
-        Array.prototype.forEach.call(squares, function(item, key) {
 
-            if(key === e.data) {
 
-                item.classList.add("over");
+        if(validateOrigin(e)) {
 
-            } else item.classList.remove("over");
-        })
+            console.log(e.data);
+
+            Array.prototype.forEach.call(squares, function(item, key) {
+
+                if(key === e.data.key) {
+
+                    item.classList.add("over");
+
+                } else item.classList.remove("over");
+            });
+        }
     }
 
-    function handleMouseOutDiv() {
+    function handleMouseOutDiv(e) {
 
-        Array.prototype.forEach.call(squares, function(item) {
+        console.log("handleMouseOutDiv");
 
-            item.classList.remove("over");
-        })
+        if(validateOrigin(e)) {
+
+            Array.prototype.forEach.call(squares, function(item) {
+
+                item.classList.remove("over");
+            });
+        }
     }
 
-    window.addEventListener('mouseOverDiv', handleHoverOnDiv, false);
-    window.addEventListener('mouseOutDiv', handleMouseOutDiv, false);
+    window.addEventListener('message', handleHoverOnDiv, false);
 
 </script>
 	

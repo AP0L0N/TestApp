@@ -42,22 +42,20 @@
 	</div>
 
     <script>
+        let targetOrigin = "*"; // Target the correct origin
         let squares = document.getElementsByClassName("square");
 
         Array.prototype.forEach.call(squares, function(item, key) {
 
             item.addEventListener("mouseover", function() {
 
-                let event = new Event('mouseOverDiv');
-                event.data = key;
-                window.parent.dispatchEvent(event);
+                window.parent.postMessage({key: key}, targetOrigin);
             });
 
             item.addEventListener("mouseleave", function() {
 
-                let event = new Event('mouseOutDiv');
-                event.data = key;
-                window.parent.dispatchEvent(event);
+                window.parent.postMessage({key: -1}, targetOrigin);
+
             });
         });
     </script>

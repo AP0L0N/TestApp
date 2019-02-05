@@ -20,3 +20,6 @@ either update index.php to use specific methods of the Bank object or update the
 Simple test app that handles dispatching and handling of events between the iframe and parent document.
 1. The iframe dispatches the event when the hover over DIV elements with class .square occur,
 1. parent document listens for that same events and handles it
+
+## Run
+1. Update the targetOrigin variable in the iframe.html accordingly
