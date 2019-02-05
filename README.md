@@ -4,6 +4,7 @@ Simple Bank app that saves and displays users transactions
 ## Setup
 1. import the database/structure.sql to your database
 1. copy the .env.example to .env and add your database settings
+1. Run composer install and composer update
 
 ## Run
 example run; using this command in terminal: php -r 'include "index.php";'
