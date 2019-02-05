@@ -92,7 +92,7 @@ class User
 
         try {
 
-            $sum_amount = DAL::Instance()->db->fetchColumn("SELECT SUM(t.amount) FROM transactions as t WHERE t.user_id = :user_id", ["user_id" => $this->id]);
+            $sum_amount = (float) DAL::Instance()->db->fetchColumn("SELECT SUM(t.amount) FROM transactions as t WHERE t.user_id = :user_id", ["user_id" => $this->id]);
 
             return $sum_amount ?? 0;
 
