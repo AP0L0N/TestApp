@@ -1,4 +1,5 @@
-# Test App
+# PHP Test App
+Simple Bank app that saves and displays users transactions
 
 ## Setup
 - import the database/structure.sql to your database
@@ -14,3 +15,6 @@ Bank::balance();
 Bank::transactions();
 Bank::dailyTransactions(4);
 Bank::negativeBalance();
+
+# HTML Post Message
+Simple test app that handles dispatching and handling of events between the iframe and parent document
