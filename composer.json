@@ -1,0 +1,20 @@
+{
+    "name": "apolon/iprom",
+    "description": "Test assignment for iprom",
+    "type": "project",
+    "require": {
+        "wp-cli/php-cli-tools": "^0.11.11",
+        "simplon/mysql": "^2.2",
+        "vlucas/phpdotenv": "^3.3"
+    },
+    "autoload": {
+      "psr-0": {"IPROMTestApp": "src/"}
+    },
+    "authors": [
+        {
+            "name": "Tilen Poje",
+            "email": "poje.tilen@gmail.com"
+        }
+    ],
+    "minimum-stability": "stable"
+}

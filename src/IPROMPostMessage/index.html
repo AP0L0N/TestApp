@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <title></title>
+	
+	<style>
+		.container {
+			width: 1000px;
+			margin: 0 auto;
+		}
+	
+		.holder {
+			float: left;
+			border: 1px solid #ccc;
+			width: 424px;
+			padding: 20px 20px 0 20px;
+			margin: 20px 10px;
+		}
+	
+		.square {
+			border: 1px solid;
+			background: #eee;
+			width: 200px; 
+			height: 200px;
+			margin: 0 20px 20px 0;
+			float: left;
+		}
+		
+		.square:nth-child(even) {
+			margin-right: 0;
+		}
+		
+		.square.over {
+			background: lightblue;
+			border-color: blue;
+		}
+		
+		iframe.holder {
+			height: 666px;
+			float: right;
+		}
+	</style>
+</head>
+<body>
+    
+	<div class="container">
+		<div class="holder" >
+			<div class="square"></div>
+			<div class="square"></div>
+			<div class="square"></div>
+			<div class="square"></div>
+			<div class="square"></div>
+			<div class="square"></div>
+		</div>
+		
+		<iframe src="frame.html" scrolling="no" class="holder"></iframe>
+	</div>
+
+<script>
+
+    let squares = document.getElementsByClassName("square");
+
+    function handleHoverOnDiv(e) {
+
+        Array.prototype.forEach.call(squares, function(item, key) {
+
+            if(key === e.data) {
+
+                item.classList.add("over");
+
+            } else item.classList.remove("over");
+        })
+    }
+
+    function handleMouseOutDiv() {
+
+        Array.prototype.forEach.call(squares, function(item) {
+
+            item.classList.remove("over");
+        })
+    }
+
+    window.addEventListener('mouseOverDiv', handleHoverOnDiv, false);
+    window.addEventListener('mouseOutDiv', handleMouseOutDiv, false);
+
+</script>
+	
+</body>
+</html>
